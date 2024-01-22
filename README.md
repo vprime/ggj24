@@ -11,7 +11,6 @@
 ---
 
 # Game Design
-
 A third person action game of Cat and Mouse with physics in Unreal Engine.
 
 ### Theme: Make Me Laugh
@@ -21,6 +20,9 @@ The game will be funny though the use of physics
 Overdone physics
 Third person
 Chase a mouse
+Claws out will grab some objects
+Claws can get stuck in things
+
 
 
 ## Story

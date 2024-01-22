@@ -6,7 +6,7 @@
 - Vi Prime @vprime
 - Tyler Shauger @Tyler-Shauger
 - Will Kostecki @WillKostecki
-- Isaac of the Darkness
+- Isaac Pahona @CheftoTheLeft
 
 ---
 
@@ -14,15 +14,20 @@
 
 A third person action game of Cat and Mouse with physics in Unreal Engine.
 
+### Theme: Make Me Laugh
+The game will be funny though the use of physics
+
 ## Mechanics
-Overdone physics.
-Third person.
-Chase a mouse.
+Overdone physics
+Third person
+Chase a mouse
 
 
 ## Story
 
 ### Characters
+- Cat
+- Mouse (Steamboat Willie Micky mouse)
 
 ### Setting
 

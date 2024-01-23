@@ -1,12 +1,11 @@
 # Global Game Jam 2024 Project
 
-
-
 ## Team
-- Vi Prime @vprime
-- Tyler Shauger @Tyler-Shauger
-- Will Kostecki @WillKostecki
-- Isaac Pahona @CheftoTheLeft
+- Vi Prime      @vprime             Art
+- Tyler Shauger @Tyler-Shauger      Programming
+- Will Kostecki @WillKostecki       
+- Isaac Pahona  @CheftoTheLeft
+- Tutu                              Story
 
 ---
 
@@ -22,22 +21,35 @@ Third person
 Chase a mouse
 Claws out will grab some objects
 Claws can get stuck in things
-
+Human/Cat animations
+Ragdoll when knocked down
+"Self righting"
 
 
 ## Story
 
 ### Characters
 - Cat
-- Mouse (Steamboat Willie Micky mouse)
+- Mouse 
+  - Steamboat willie
+  - Or computer mouse
+  - Flys
+  - Birds
+  - Chuaua
+  - Another cat
 
 ### Setting
+Bookstore setting
 
 ### Target Audience
+Gamers
 
 ### Levels
 
+
 ### User Interface
+Respawn button
+Maybe a way to quit
 
 ### Technical
 

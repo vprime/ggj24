@@ -88,9 +88,9 @@ Stink physics
 
 
 #### Requirements
-- [ ] Vi: Player input   
-- [ ] Vi: Player model (Cat)
-- [ ] Vi: Animation controller
+- [x] Vi: Player input   
+- [x] Vi: Player model (Cat)
+- [x] Vi: Animation controller
 - [ ] NPC controller (Mice, Dogs, Birds, People)
 - [ ] NPC spawner
 - [ ] Trap controller 
@@ -160,9 +160,11 @@ Release day
 - [x] Jump (26 frames)
 - [x] Fall loop (90 frames)
 - [x] Idle (227 frames)
-- [ ] T Pose
-- [ ] Grab right arm
-- [ ] Grab left arm
+- [x] T Pose
+- [x] Grab right arm
+- [x] Grab left arm
+- [x] Sleeping
+- [x] Cleaning
 
 Cat walking
 front right up and forward

@@ -4115,3 +4115,17 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.01.24-20.49.04:780][950]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
 [2024.01.24-20.49.04:780][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.01.24-20.49.42:991][206]LogDerivedDataCache: C:/Users/tshau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.067 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 497 files in 905 folders with total size 41 MiB.
+[2024.01.24-20.55.37:791][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.24-20.55.37:801][831]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Tylers_Stuff_No_Touch/MainMenu/Main' took 0.024
+[2024.01.24-20.55.37:801][831]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Tylers_Stuff_No_Touch/MainMenu/MainMenu] ([2] browsable assets)...
+[2024.01.24-20.55.37:806][831]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Tylers_Stuff_No_Touch/MainMenu/MainMenu.MainMenu]
+[2024.01.24-20.55.37:806][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tylers_Stuff_No_Touch/MainMenu/MainMenu]
+[2024.01.24-20.55.37:813][831]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Tylers_Stuff_No_Touch/MainMenu/MainMenu_Auto7
+[2024.01.24-20.55.37:813][831]LogSavePackage: Moving '../../../../../../Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Saved/MainMenu_Auto7062213D148FB6C9BF7F8B7AC1CBD02C7.tmp' to '../../../../../../Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Saved/Autosaves/Game/Tylers_Stuff_No_Touch/MainMenu/MainMenu_Auto7.uasset'
+[2024.01.24-20.55.37:814][831]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tylers_Stuff_No_Touch/MainMenu/CatAndMouse] ([1] browsable assets)...
+[2024.01.24-20.55.37:821][831]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Tylers_Stuff_No_Touch/MainMenu/CatAndMouse.CatAndMouse]
+[2024.01.24-20.55.37:821][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tylers_Stuff_No_Touch/MainMenu/CatAndMouse]
+[2024.01.24-20.55.37:823][831]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Tylers_Stuff_No_Touch/MainMenu/CatAndMouse_Auto7
+[2024.01.24-20.55.37:824][831]LogSavePackage: Moving '../../../../../../Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Saved/CatAndMouse_Auto7C5956E6549E3458F657998B99B01C699.tmp' to '../../../../../../Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Saved/Autosaves/Game/Tylers_Stuff_No_Touch/MainMenu/CatAndMouse_Auto7.uasset'
+[2024.01.24-20.55.37:824][831]LogFileHelpers: Auto-saving content packages took 0.023
+[2024.01.24-21.49.42:990][566]LogDerivedDataCache: C:/Users/tshau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.065 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 497 files in 905 folders with total size 41 MiB.

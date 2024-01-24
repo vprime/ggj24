@@ -1,0 +1,69 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.1.73-1-MANJARO (network name: miku)
+Running 16 x86_64 processors (32 logical cores)
+Exception was "UAssetEditorSubsystem::OpenEditorForAsset"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:765]
+libUnrealEditor-Core.so!ThreadStackWalker(int, siginfo_t*, void*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1040]
+libc.so.6!UnknownFunction(0x3e70f)
+libc.so.6!UnknownFunction(0x894ad)
+libc.so.6!pthread_cond_timedwait(+0x244)
+libUnrealEditor-Core.so!FPThreadEvent::Wait(unsigned int, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/GenericPlatform/GenericPlatformProcess.cpp:484]
+libUnrealEditor-Engine.so!FAsyncTaskBase::WaitCompletionWithTimeout(float) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Async/AsyncWork.h:514]
+libUnrealEditor-Engine.so!AsyncCompilationHelpers::FinishCompilation(TFunctionRef<AsyncCompilationHelpers::ICompilable& (int)>, int, FText const&, FLogCategoryBase const&, TFunctionRef<void (AsyncCompilationHelpers::ICompilable*)>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/AsyncCompilationHelpers.cpp:148]
+libUnrealEditor-Engine.so!FSkinnedAssetCompilingManager::FinishCompilation(TArrayView<USkinnedAsset* const, int>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/SkinnedAssetCompiler.cpp:334]
+libUnrealEditor-Engine.so!USkinnedAsset::WaitUntilAsyncPropertyReleasedInternal(unsigned long long, ESkinnedAssetAsyncPropertyLockType) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/SkinnedAsset.cpp:365]
+libUnrealEditor-Engine.so!USkeletalMesh::GetDefaultMeshDeformer() const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Engine/Classes/Engine/SkeletalMesh.h:2814]
+libUnrealEditor-Engine.so!USkinnedMeshComponent::GetActiveMeshDeformer() const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkinnedMeshComponent.cpp:2208]
+libUnrealEditor-Engine.so!USkinnedMeshComponent::SetSkinnedAssetAndUpdate(USkinnedAsset*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkinnedMeshComponent.cpp:2170]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::SetSkeletalMesh(USkeletalMesh*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:2918]
+libUnrealEditor-UnrealEd.so!UDebugSkelMeshComponent::SetSkeletalMesh(USkeletalMesh*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Animation/DebugSkelMeshComponent.cpp:583]
+libUnrealEditor-ControlRigEditor.so!FControlRigEditor::HandlePreviewSceneCreated(TSharedRef<IPersonaPreviewScene, (ESPMode)1> const&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditor.cpp:1951]
+libUnrealEditor-ControlRigEditor.so!TBaseSPMethodDelegateInstance<false, FControlRigEditor, (ESPMode)1, void (TSharedRef<IPersonaPreviewScene, (ESPMode)1> const&), FDefaultDelegateUserPolicy>::Execute(TSharedRef<IPersonaPreviewScene, (ESPMode)1> const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-Persona.so!FPersonaToolkit::CreatePreviewScene(FPersonaToolkitArgs const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Persona/Private/PersonaToolkit.cpp:148]
+libUnrealEditor-Persona.so!FPersonaToolkit::Initialize(UObject*, FPersonaToolkitArgs const&, USkeleton*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Persona/Private/PersonaToolkit.cpp:56]
+libUnrealEditor-Persona.so!FPersonaModule::CreatePersonaToolkit(UObject*, FPersonaToolkitArgs const&, USkeleton*) const [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/Persona/Private/PersonaModule.cpp:200]
+libUnrealEditor-ControlRigEditor.so!FControlRigEditor::CreatePersonaToolKitIfRequired() [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditor.cpp:274]
+libUnrealEditor-ControlRigEditor.so!FControlRigEditor::CreateEditorMode() [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditor.cpp:297]
+libUnrealEditor-RigVMEditor.so!FRigVMEditor::InitRigVMEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, URigVMBlueprint*) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Runtime/RigVM/Source/RigVMEditor/Private/Editor/RigVMEditor.cpp:169]
+libUnrealEditor-ControlRigEditor.so!FControlRigEditor::InitRigVMEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, URigVMBlueprint*) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditor.cpp:215]
+libUnrealEditor-ControlRigEditor.so!FControlRigEditorModule::CreateControlRigEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1> const&, UControlRigBlueprint*) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorModule.cpp:1286]
+libUnrealEditor-ControlRigEditor.so!FControlRigBlueprintActions::OpenAssetEditor(TArray<UObject*, TSizedDefaultAllocator<32> > const&, TSharedPtr<IToolkitHost, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintActions.cpp:69]
+libUnrealEditor-ControlRigEditor.so!FAssetTypeActions_Base::OpenAssetEditor(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod, TSharedPtr<IToolkitHost, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_Base.h:43]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAsset(UObject*, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, bool, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:579]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAssets_Advanced(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)1>, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:645]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::OpenEditorForAssets(TArray<UObject*, TSizedDefaultAllocator<32> > const&, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:760]
+libUnrealEditor-ContentBrowserAssetDataSource.so!ContentBrowserAssetData::EditOrPreviewAssetFileItems(TArrayView<TSharedRef<FContentBrowserAssetFileItemDataPayload const, (ESPMode)1> const, int>, EAssetTypeActivationMethod::Type, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Source/ContentBrowserAssetDataSource/Private/ContentBrowserAssetDataCore.cpp:372]
+libUnrealEditor-ContentBrowserAssetDataSource.so!ContentBrowserAssetData::EditOrPreviewItems(IAssetTools*, UContentBrowserDataSource const*, TArrayView<FContentBrowserItemData const, int>, EAssetTypeActivationMethod::Type, EAssetTypeActivationOpenedMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Source/ContentBrowserAssetDataSource/Private/ContentBrowserAssetDataCore.cpp:417]
+libUnrealEditor-ContentBrowser.so!SContentBrowser::OnItemsActivated(TArrayView<FContentBrowserItem const, int>, EAssetTypeActivationMethod::Type) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/SContentBrowser.cpp:3141]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SContentBrowser, (ESPMode)1, void (TArrayView<FContentBrowserItem const, int>, EAssetTypeActivationMethod::Type), FDefaultDelegateUserPolicy>::Execute(TArrayView<FContentBrowserItem const, int>, EAssetTypeActivationMethod::Type) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+libUnrealEditor-ContentBrowser.so!SAssetView::OnListMouseButtonDoubleClick(TSharedPtr<FAssetViewItem, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/ContentBrowser/Private/SAssetView.cpp:4081]
+libUnrealEditor-ContentBrowser.so!TBaseSPMethodDelegateInstance<false, SAssetView, (ESPMode)1, void (TSharedPtr<FAssetViewItem, (ESPMode)1>), FDefaultDelegateUserPolicy>::ExecuteIfSafe(TSharedPtr<FAssetViewItem, (ESPMode)1>) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:298]
+libUnrealEditor-ContentBrowser.so!SListView<TSharedPtr<FAssetViewItem, (ESPMode)1> >::Private_OnItemDoubleClicked(TSharedPtr<FAssetViewItem, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/SListView.h:1122]
+libUnrealEditor-ContentBrowser.so!STableRow<TSharedPtr<FAssetViewItem, (ESPMode)1> >::OnMouseButtonDoubleClick(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:422]
+libUnrealEditor-ContentBrowser.so!non-virtual thunk to STableRow<TSharedPtr<FAssetViewItem, (ESPMode)1> >::OnMouseButtonDoubleClick(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h:0]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerDoubleClickEvent(FWidgetPath const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5700]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonDoubleClickEvent(TSharedPtr<FGenericWindow, (ESPMode)1> const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5683]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseDoubleClick(TSharedPtr<FGenericWindow, (ESPMode)1> const&, EMouseButtons::Type, UE::Math::TVector2<double>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5648]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:438]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:442]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5743]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x27ccf)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

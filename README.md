@@ -2,9 +2,9 @@
 
 ## Team
 - Vi Prime      @vprime             Art
-- Tyler Shauger @Tyler-Shauger      Programming
+- Tyler Shauger @Tyler-Shauger      Programming / UI
 - Will Kostecki @WillKostecki       Art / Programming
-- Isaac Pahona  @CheftoTheLeft
+- Isaac Pahona  @CheftoTheLeft      Art
 - Tutu                              Support
 
 ---
@@ -88,38 +88,38 @@ Stink physics
 
 
 #### Requirements
-- [] Vi: Player input   
-- [] Vi: Player model (Noodle modle)
-- [] Vi: Animation controller
-- [] NPC controller (Mice, Dogs, Birds, People)
-- [] NPC spawner
-- [] Trap controller 
-- [] Trap models (Mousetraps, Exploding barrels, Water, Catbox, Sleeping dogs, Glue traps, Sticks to you)
-- [] Primary game mode (Capture rodents)
-- [] Win handler (Rodent capture count)
-- [] Loose handler (Time limit or a rodent target)
-- [] Game main menu
-- [] Pause menu
-- [] End game
-- [] Reset game
-- [] Will: Scene static layout
-- [] Will: Scene dynamic layout
-- [] Will: Scene static lighting
-- [] Will: Scene dynamic lighting
-- [] Game Story
-- [] Opening Storyboard
-- [] Opening graphics
-- [] Opening sequence programming
-- [] Entrypoint storyboard
-- [] Entrypoint graphics
-- [] Entrypoint sequence programming
-- [] Win storyboard
-- [] Win graphics
-- [] Loose storyboard
-- [] Loose graphics
-- [] WinLoss Sequence programming
-- [] Preloading & Pause menu
-- [] Settings
+- [ ] Vi: Player input   
+- [ ] Vi: Player model (Cat)
+- [ ] Vi: Animation controller
+- [ ] NPC controller (Mice, Dogs, Birds, People)
+- [ ] NPC spawner
+- [ ] Trap controller 
+- [ ] Trap models (Mousetraps, Exploding barrels, Water, Catbox, Sleeping dogs, Glue traps, Sticks to you)
+- [ ] Primary game mode (Capture rodents)
+- [ ] Win handler (Rodent capture count)
+- [ ] Loose handler (Time limit or a rodent target)
+- [ ] Game main menu
+- [ ] Pause menu
+- [ ] End game
+- [ ] Reset game
+- [ ] Will: Scene static layout
+- [ ] Will: Scene dynamic layout
+- [ ] Will: Scene static lighting
+- [ ] Will: Scene dynamic lighting
+- [ ] Game Story
+- [ ] Opening Storyboard
+- [ ] Opening graphics
+- [ ] Opening sequence programming
+- [ ] Entrypoint storyboard
+- [ ] Entrypoint graphics
+- [ ] Entrypoint sequence programming
+- [ ] Win storyboard
+- [ ] Win graphics
+- [ ] Loose storyboard
+- [ ] Loose graphics
+- [ ] WinLoss Sequence programming
+- [ ] Preloading & Pause menu
+- [ ] Settings
 
 
 ## Progress
@@ -149,3 +149,25 @@ Tutu is playing pokemon
 
 ### Sunday 1-28 
 Release day
+
+
+### Cat Animations 30fps
+- [x] Rig
+- [x] Walk in place (30fps 82frames 6 steps Start from Left foot)
+- [x] Walk forward (30fps 56frames 6 steps Start from Left foot, about 12 frames a step)
+- [x] Run Forward (30fps 57frames 6 steps Start from Left food, about 7 frames a step)
+- [x] Land (26 frames)
+- [x] Jump (26 frames)
+- [x] Fall loop (90 frames)
+- [x] Idle (227 frames)
+- [ ] T Pose
+- [ ] Grab right arm
+- [ ] Grab left arm
+
+Cat walking
+front right up and forward
+rear left up and forward just before last foot starts going down
+
+
+Cat Running
+

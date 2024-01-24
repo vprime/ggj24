@@ -1,0 +1,122 @@
+﻿Log file open, 01/22/24 18:31:56
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogInit: ExecutableName: CrashReportClient
+LogInit: Build: ++UE5+Release-5.3-CL-29314046
+LogInit: Engine Version: 5.3.2-29314046+++UE5+Release-5.3
+LogInit: Compatible Engine Version: 5.3.0-27405482+++UE5+Release-5.3
+LogInit: Net CL: 27405482
+LogInit: OS: Manjaro Linux (6.1.73-1-MANJARO), CPU: AMD Ryzen 9 5950X 16-Core Processor, GPU: AMD PCI-id: 1002-73bf (1458-2329)
+LogInit: Compiled (64-bit): Nov  3 2023 16:27:17
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 16.0.6 (github.com/llvm/llvm-project 7cbf1a2591520c2491aa35339f227775f4d3adf6)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.3
+LogInit: Command Line:  -Abslog="/home/vi/Documents/projects/ggj24/ggj24/Saved/Logs/ggj24-CRC.log" -Unattended "/home/vi/Documents/projects/ggj24/ggj24/Saved/Crashes/ensureinfo-ggj24-pid-322464-2A99E96452C9477190E2A41C37B33C74/"
+LogInit: Base Directory: /home/vi/Documents/projects/unreal/Linux_Unreal_Engine_5.3.2/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.01.23-01.31.56:606][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.01.23-01.31.56:606][  0]LogInit: Unix hardware info:
+[2024.01.23-01.31.56:606][  0]LogInit:  - we are the first instance of this executable
+[2024.01.23-01.31.56:606][  0]LogInit:  - this process' id (pid) is 330344, parent process' id (ppid) is 322464
+[2024.01.23-01.31.56:606][  0]LogInit:  - we are not running under debugger
+[2024.01.23-01.31.56:606][  0]LogInit:  - machine network name is 'miku'
+[2024.01.23-01.31.56:606][  0]LogInit:  - user name is 'vi' (vi)
+[2024.01.23-01.31.56:606][  0]LogInit:  - we're logged in locally
+[2024.01.23-01.31.56:606][  0]LogInit:  - we're running with rendering
+[2024.01.23-01.31.56:606][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 5950X 16-Core Processor' (signature: 0xA20F10)
+[2024.01.23-01.31.56:606][  0]LogInit:  - Number of physical cores available for the process: 16
+[2024.01.23-01.31.56:606][  0]LogInit:  - Number of logical cores available for the process: 32
+[2024.01.23-01.31.56:606][  0]LogInit:  - GPU Brand Info: AMD PCI-id: 1002-73bf (1458-2329)
+[2024.01.23-01.31.56:606][  0]LogInit:  - Memory allocator used: Mimalloc
+[2024.01.23-01.31.56:606][  0]LogInit:  - This is an internal build.
+[2024.01.23-01.31.56:606][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2024.01.23-01.31.56:606][  0]LogInit: Unix-specific commandline switches:
+[2024.01.23-01.31.56:606][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2024.01.23-01.31.56:606][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2024.01.23-01.31.56:606][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2024.01.23-01.31.56:606][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2024.01.23-01.31.56:606][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2024.01.23-01.31.56:606][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2024.01.23-01.31.56:606][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2024.01.23-01.31.56:606][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2024.01.23-01.31.56:606][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2024.01.23-01.31.56:606][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2024.01.23-01.31.56:606][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2024.01.23-01.31.56:606][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2024.01.23-01.31.56:606][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2024.01.23-01.31.56:606][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2024.01.23-01.31.56:606][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64244 MB, 65786348 KB, 67365220352 bytes)
+[2024.01.23-01.31.56:606][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2024.01.23-01.31.56:606][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2024.01.23-01.31.56:606][  0]LogInit:  - PageSize 4096
+[2024.01.23-01.31.56:606][  0]LogInit:  - BinnedPageSize 65536
+[2024.01.23-01.31.56:608][  0]LogUObjectArray: 434 objects as part of root set at end of initial load.
+[2024.01.23-01.31.56:608][  0]LogUObjectAllocator: 90616 out of 0 bytes used by permanent object pool.
+[2024.01.23-01.31.56:608][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.01.23-01.31.56:609][  0]LogInit: Using OS detected language (en-US).
+[2024.01.23-01.31.56:609][  0]LogInit: Using OS detected locale (en-US).
+[2024.01.23-01.31.56:609][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.01.23-01.31.56:625][  0]LogInit: Using OS detected language (en-US).
+[2024.01.23-01.31.56:625][  0]LogInit: Using OS detected locale (en-US).
+[2024.01.23-01.31.56:625][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.01.23-01.31.56:625][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2024.01.23-01.31.56:625][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000026 seconds
+[2024.01.23-01.31.56:625][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2024.01.23-01.31.56:625][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2024.01.23-01.31.56:625][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2024.01.23-01.31.56:644][  0]LogInit: Using libcurl 8.4.0
+[2024.01.23-01.31.56:644][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2024.01.23-01.31.56:644][  0]LogInit:  - supports SSL with OpenSSL/1.1.1t
+[2024.01.23-01.31.56:644][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.13
+[2024.01.23-01.31.56:644][  0]LogInit:  - other features:
+[2024.01.23-01.31.56:644][  0]LogInit:      CURL_VERSION_SSL
+[2024.01.23-01.31.56:644][  0]LogInit:      CURL_VERSION_LIBZ
+[2024.01.23-01.31.56:644][  0]LogInit:      CURL_VERSION_IPV6
+[2024.01.23-01.31.56:644][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2024.01.23-01.31.56:644][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2024.01.23-01.31.56:644][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2024.01.23-01.31.56:645][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2024.01.23-01.31.56:645][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2024.01.23-01.31.56:645][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2024.01.23-01.31.56:645][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2024.01.23-01.31.56:645][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2024.01.23-01.31.56:645][  0]LogInit:  - LocalHostAddr = Default
+[2024.01.23-01.31.56:645][  0]LogInit:  - BufferSize = 65536
+[2024.01.23-01.31.56:645][  0]LogAnalytics: Display: [CrashReporter.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = ++UE5+Release-5.3-CL-29314046
+[2024.01.23-01.31.56:647][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.01.23-01.31.56:647][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2024.01.23-01.31.56:647][  0]LogCrashDebugHelper: DepotName: //UE5/Release-5.3
+[2024.01.23-01.31.56:647][  0]LogCrashDebugHelper: BuiltFromCL: 29314046
+[2024.01.23-01.31.56:647][  0]LogCrashDebugHelper: EngineVersion: 5.3.2-29314046+++UE5+Release-5.3
+[2024.01.23-01.31.56:647][  0]LogCrashDebugHelper: BuildVersion: ++UE5+Release-5.3-CL-29314046
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: Got 4 pending files to upload from 'ensureinfo-ggj24-pid-322464-2A99E96452C9477190E2A41C37B33C74'
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: CompressAndSendData have 4 pending files
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: CompressAndSendData compressing 7895 bytes ('/home/vi/Documents/projects/ggj24/ggj24/Saved/Crashes/ensureinfo-ggj24-pid-322464-2A99E96452C9477190E2A41C37B33C74/Diagnostics.txt')
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: CompressAndSendData compressing 179 bytes ('/home/vi/Documents/projects/ggj24/ggj24/Saved/Crashes/ensureinfo-ggj24-pid-322464-2A99E96452C9477190E2A41C37B33C74/CrashReportClient.ini')
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: CompressAndSendData compressing 255450 bytes ('/home/vi/Documents/projects/ggj24/ggj24/Saved/Crashes/ensureinfo-ggj24-pid-322464-2A99E96452C9477190E2A41C37B33C74/ggj24.log')
+[2024.01.23-01.31.57:617][  0]CrashReportCoreLog: CompressAndSendData compressing 46918 bytes ('/home/vi/Documents/projects/ggj24/ggj24/Saved/Crashes/ensureinfo-ggj24-pid-322464-2A99E96452C9477190E2A41C37B33C74/CrashContext.runtime-xml')
+[2024.01.23-01.31.57:623][  0]CrashReportCoreLog: Sending HTTP request: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&AppEnvironment=Release&UploadType=crashreports&UserID=cac30566e7184f30a30b3c51e8dd147a-000003e8%7C%7Ccac30566e7184f30a30b3c51e8dd147a
+[2024.01.23-01.31.58:251][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2024.01.23-01.31.58:251][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
+[2024.01.23-01.31.58:251][  0]CrashReportCoreLog: All uploads done
+[2024.01.23-01.31.58:251][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2024.01.23-01.31.58:651][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2024.01.23-01.31.58:651][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2024.01.23-01.31.58:651][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit)
+[2024.01.23-01.31.58:651][  0]LogExit: Preparing to exit.
+[2024.01.23-01.31.58:652][  0]LogExit: Object subsystem successfully closed.
+[2024.01.23-01.31.58:655][  0]LogModuleManager: Shutting down and abandoning module CrashDebugHelper (14)
+[2024.01.23-01.31.58:655][  0]LogModuleManager: Shutting down and abandoning module AnalyticsET (12)
+[2024.01.23-01.31.58:655][  0]LogModuleManager: Shutting down and abandoning module HTTP (11)
+[2024.01.23-01.31.59:167][  0]LogModuleManager: Shutting down and abandoning module SSL (10)
+[2024.01.23-01.31.59:168][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2024.01.23-01.31.59:168][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2024.01.23-01.31.59:168][  0]LogPakFile: Destroying PakPlatformFile
+[2024.01.23-01.31.59:168][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2024.01.23-01.31.59:171][  0]LogExit: Exiting.
+[2024.01.23-01.31.59:181][  0]Log file closed, 01/22/24 18:31:59

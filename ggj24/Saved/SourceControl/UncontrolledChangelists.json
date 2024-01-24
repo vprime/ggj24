@@ -5,6 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/TestWidget.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/HUD.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/MainMenu.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/PauseMenu.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/TestWidget.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/Main.umap",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/LoseScreen.uasset",
+				"C:/Users/tshau/OneDrive/Documents/GitHub/ggj24/ggj24/Content/Tylers_Stuff_No_Touch/WinScreen.uasset",
 				"/home/vi/Documents/projects/ggj24/ggj24/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
 			]
 		}

@@ -96,7 +96,7 @@ Stink physics
 - [ ] Trap controller 
 - [ ] Trap models (Mousetraps, Exploding barrels, Water, Catbox, Sleeping dogs, Glue traps, Sticks to you)
 - [ ] Primary game mode (Capture rodents)
-- [ ] Vi: Grab and Hold Rodents
+- [x] Vi: Grab and Hold Rodents
 - [ ] Win handler (Rodent capture count)
 - [ ] Loose handler (Time limit or a rodent target)
 - [ ] Tyler: Game main menu

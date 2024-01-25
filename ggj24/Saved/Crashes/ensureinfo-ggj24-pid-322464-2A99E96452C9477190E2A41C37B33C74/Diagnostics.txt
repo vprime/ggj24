@@ -1,0 +1,53 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.1.73-1-MANJARO (network name: miku)
+Running 16 x86_64 processors (32 logical cores)
+Exception was "Ensure condition failed: SkeletonToCompactPose.IsValidIndex(SkeletonIndex)  [File:Runtime/Engine/Public/BoneContainer.h] [Line: 609] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Engine.so!UAnimSequence::EvaluateAttributes(FAnimationPoseData&, FAnimExtractContext const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimSequence.cpp:3939]
+libUnrealEditor-Engine.so!UAnimSequence::GetBonePose(FAnimationPoseData&, FAnimExtractContext const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimSequence.cpp:1703]
+libUnrealEditor-Engine.so!UAnimSequence::GetAnimationPose(FAnimationPoseData&, FAnimExtractContext const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimSequence.cpp:1531]
+libUnrealEditor-Engine.so!FAnimNode_SequencePlayerBase::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_SequencePlayer.cpp:133]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FAnimNode_StateMachine::EvaluateState(int, FPoseContext const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_StateMachine.cpp:1477]
+libUnrealEditor-Engine.so!FAnimNode_StateMachine::EvaluateTransitionStandardBlend(FPoseContext&, FAnimationActiveTransitionEntry&, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_StateMachine.cpp:976]
+libUnrealEditor-Engine.so!FAnimNode_StateMachine::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_StateMachine.cpp:929]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-AnimGraphRuntime.so!FAnimNode_Slot::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/AnimGraphRuntime/Private/AnimNodes/AnimNode_Slot.cpp:93]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-ControlRig.so!FAnimNode_ControlRigBase::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRig/Private/AnimNode_ControlRigBase.cpp:409]
+libUnrealEditor-ControlRig.so!FAnimNode_ControlRig::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRig/Private/AnimNode_ControlRig.cpp:186]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FAnimInstanceProxy::EvaluateAnimationNode_WithRoot(FPoseContext&, FAnimNode_Base*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimInstanceProxy.cpp:1460]
+libUnrealEditor-Engine.so!FAnimInstanceProxy::EvaluateAnimation_WithRoot(FPoseContext&, FAnimNode_Base*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimInstanceProxy.cpp:1381]
+libUnrealEditor-Engine.so!UAnimInstance::ParallelEvaluateAnimation(bool, USkeletalMesh const*, FParallelEvaluationData&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimInstance.cpp:839]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::EvaluateAnimation(USkeletalMesh const*, UAnimInstance*, UE::Math::TVector<double>&, FBlendedHeapCurve&, FCompactPose&, UE::Anim::FHeapAttributeContainer&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:1958]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::PerformAnimationProcessing(USkeletalMesh const*, UAnimInstance*, bool, TArray<UE::Math::TTransform<double>, TSizedDefaultAllocator<32> >&, TArray<UE::Math::TTransform<double>, TSizedDefaultAllocator<32> >&, UE::Math::TVector<double>&, FBlendedHeapCurve&, UE::Anim::FMeshAttributeContainer&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:2046]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::ParallelAnimationEvaluation() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:3971]
+libUnrealEditor-Engine.so!FParallelAnimationEvaluationTask::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:153]
+libUnrealEditor-Engine.so!TGraphTask<FParallelAnimationEvaluationTask>::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type, bool) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:1265]
+libUnrealEditor-Core.so!FTaskGraphCompatibilityImplementation::QueueTask(FBaseGraphTask*, bool, ENamedThreads::Type, ENamedThreads::Type)::'lambda'()::operator()() const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Async/TaskGraph.cpp:1973]
+libUnrealEditor-Core.so!LowLevelTasks::TTaskDelegate<LowLevelTasks::FTask* (bool), 48u>::TTaskDelegateImpl<void LowLevelTasks::FTask::Init<FTaskGraphCompatibilityImplementation::QueueTask(FBaseGraphTask*, bool, ENamedThreads::Type, ENamedThreads::Type)::'lambda'()>(char16_t const*, LowLevelTasks::ETaskPriority, FTaskGraphCompatibilityImplementation::QueueTask(FBaseGraphTask*, bool, ENamedThreads::Type, ENamedThreads::Type)::'lambda'()&&, LowLevelTasks::ETaskFlags)::'lambda'(bool), false>::CallAndMove(LowLevelTasks::TTaskDelegate<LowLevelTasks::FTask* (bool), 48u>&, void*, unsigned int, bool) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Async/Fundamental/TaskDelegate.h:171]
+libUnrealEditor-Core.so!LowLevelTasks::FTask::ExecuteTask() [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Async/Fundamental/Task.h:627]
+libUnrealEditor-Core.so!LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:150]
+libUnrealEditor-Core.so!bool LowLevelTasks::FScheduler::TryExecuteTaskFrom<LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue, &(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue::DequeueGlobal(bool, bool)), false>(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, LowLevelTasks::TLocalQueueRegistry<1024u>::FOutOfWork&, bool, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:349]
+libUnrealEditor-Core.so!LowLevelTasks::FScheduler::WorkerMain(LowLevelTasks::FSleepEvent*, LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, unsigned int, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/Async/Fundamental/Scheduler.cpp:378]
+libUnrealEditor-Core.so!FThreadImpl::Run() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/HAL/Thread.cpp:66]
+libUnrealEditor-Core.so!FRunnableThreadPThread::Run() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUnrealEditor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:187]
+libc.so.6!UnknownFunction(0x8c9ea)
+libc.so.6!UnknownFunction(0x1107cb)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

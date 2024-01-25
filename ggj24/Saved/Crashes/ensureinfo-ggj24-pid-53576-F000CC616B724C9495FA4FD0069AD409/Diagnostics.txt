@@ -1,0 +1,71 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.1.73-1-MANJARO (network name: miku)
+Running 16 x86_64 processors (32 logical cores)
+Exception was "Ensure condition failed: SkeletonToCompactPose.IsValidIndex(SkeletonIndex)  [File:Runtime/Engine/Public/BoneContainer.h] [Line: 609] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Engine.so!UAnimSequence::EvaluateAttributes(FAnimationPoseData&, FAnimExtractContext const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimSequence.cpp:3939]
+libUnrealEditor-Engine.so!UAnimSequence::GetBonePose(FAnimationPoseData&, FAnimExtractContext const&, bool) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimSequence.cpp:1703]
+libUnrealEditor-Engine.so!UAnimSequence::GetAnimationPose(FAnimationPoseData&, FAnimExtractContext const&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimSequence.cpp:1531]
+libUnrealEditor-Engine.so!FAnimNode_SequencePlayerBase::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_SequencePlayer.cpp:133]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FAnimNode_StateMachine::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_StateMachine.cpp:959]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FAnimNode_SaveCachedPose::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_SaveCachedPose.cpp:154]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FAnimNode_StateMachine::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNode_StateMachine.cpp:959]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-AnimGraphRuntime.so!FAnimNode_Slot::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/AnimGraphRuntime/Private/AnimNodes/AnimNode_Slot.cpp:93]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-ControlRig.so!FAnimNode_ControlRigBase::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRig/Private/AnimNode_ControlRigBase.cpp:409]
+libUnrealEditor-ControlRig.so!FAnimNode_ControlRig::Evaluate_AnyThread(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./../Plugins/Animation/ControlRig/Source/ControlRig/Private/AnimNode_ControlRig.cpp:186]
+libUnrealEditor-Engine.so!FPoseLink::Evaluate(FPoseContext&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimNodeBase.cpp:387]
+libUnrealEditor-Engine.so!FAnimInstanceProxy::EvaluateAnimationNode_WithRoot(FPoseContext&, FAnimNode_Base*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimInstanceProxy.cpp:1460]
+libUnrealEditor-Engine.so!FAnimInstanceProxy::EvaluateAnimation_WithRoot(FPoseContext&, FAnimNode_Base*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimInstanceProxy.cpp:1381]
+libUnrealEditor-Engine.so!UAnimInstance::ParallelEvaluateAnimation(bool, USkeletalMesh const*, FParallelEvaluationData&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Animation/AnimInstance.cpp:839]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::EvaluateAnimation(USkeletalMesh const*, UAnimInstance*, UE::Math::TVector<double>&, FBlendedHeapCurve&, FCompactPose&, UE::Anim::FHeapAttributeContainer&) const [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:1958]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::PerformAnimationProcessing(USkeletalMesh const*, UAnimInstance*, bool, TArray<UE::Math::TTransform<double>, TSizedDefaultAllocator<32> >&, TArray<UE::Math::TTransform<double>, TSizedDefaultAllocator<32> >&, UE::Math::TVector<double>&, FBlendedHeapCurve&, UE::Anim::FMeshAttributeContainer&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:2046]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::ParallelAnimationEvaluation() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:3971]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::DoParallelEvaluationTasks_OnGameThread() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:2499]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::RefreshBoneTransforms(FActorComponentTickFunction*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:2400]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::InitAnim(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:867]
+libUnrealEditor-Engine.so!USkeletalMeshComponent::OnRegister() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/SkeletalMeshComponent.cpp:656]
+libUnrealEditor-Engine.so!UActorComponent::ExecuteRegisterEvents(FRegisterComponentContext*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:1673]
+libUnrealEditor-Engine.so!UActorComponent::RegisterComponentWithWorld(UWorld*, FRegisterComponentContext*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:1343]
+libUnrealEditor-Engine.so!AActor::IncrementalRegisterComponents(int, FRegisterComponentContext*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Actor.cpp:5452]
+libUnrealEditor-Engine.so!AActor::RegisterAllComponents() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Actor.cpp:5351]
+libUnrealEditor-Engine.so!AActor::PostSpawnInitialize(UE::Math::TTransform<double> const&, AActor*, APawn*, bool, bool, bool, ESpawnActorScaleMethod) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/Actor.cpp:3787]
+libUnrealEditor-Engine.so!UWorld::SpawnActor(UClass*, UE::Math::TTransform<double> const*, FActorSpawnParameters const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:727]
+libUnrealEditor-Engine.so!UWorld::SpawnActor(UClass*, UE::Math::TVector<double> const*, UE::Math::TRotator<double> const*, FActorSpawnParameters const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:437]
+libUnrealEditor-UnrealEd.so!FClassActorThumbnailScene::SpawnPreviewActor(UClass*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/ThumbnailHelpers.cpp:1095]
+libUnrealEditor-UnrealEd.so!FBlueprintThumbnailScene::SetBlueprint(UBlueprint*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/ThumbnailHelpers.cpp:1207]
+libUnrealEditor-UnrealEd.so!UBlueprintThumbnailRenderer::Draw(UObject*, int, int, unsigned int, unsigned int, FRenderTarget*, FCanvas*, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/ThumbnailRendering/BlueprintThumbnailRenderer.cpp:49]
+libUnrealEditor-UnrealEd.so!ThumbnailTools::RenderThumbnail(UObject*, unsigned int, unsigned int, ThumbnailTools::EThumbnailTextureFlushMode::Type, FTextureRenderTargetResource*, FObjectThumbnail*) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/ObjectTools.cpp:5149]
+libUnrealEditor-UnrealEd.so!FAssetThumbnailPool::LoadThumbnail(TSharedRef<FAssetThumbnailPool::FThumbnailInfo, (ESPMode)1>, bool&, FAssetData const&)::$_0::operator()() const [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/AssetThumbnail.cpp:1250]
+libUnrealEditor-UnrealEd.so!FAssetThumbnailPool::LoadThumbnail(TSharedRef<FAssetThumbnailPool::FThumbnailInfo, (ESPMode)1>, bool&, FAssetData const&) [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Experimental/ConcurrentLinearAllocator.h:1318]
+libUnrealEditor-UnrealEd.so!FAssetThumbnailPool::Tick(float) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/AssetThumbnail.cpp:1145]
+libUnrealEditor-UnrealEd.so!FTickableEditorObject::TickObjects(float) [/mnt/horde/++UE5/Sync/Engine/Source/Editor/UnrealEd/Public/TickableEditorObject.h:49]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1679]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:528]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5819]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x27ccf)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

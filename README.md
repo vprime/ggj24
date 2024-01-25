@@ -1,10 +1,10 @@
 # Global Game Jam 2024 Project
 
 ## Team
-- Vi Prime      @vprime             Art
+- Vi Prime      @vprime             Art / Programming
 - Tyler Shauger @Tyler-Shauger      Programming / UI
 - Will Kostecki @WillKostecki       Art / Programming
-- Isaac Pahona  @CheftoTheLeft      Art
+- Isaac Pahona  @CheftoTheLeft      artificial intelligence / Art / Programming
 - Tutu                              Support
 
 ---

@@ -5770,3 +5770,547 @@ Converted Global Transform (4.799391,-10.308034,5.734377|28.409761,17.426918,86.
 [2024.01.24-23.38.57:472][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 3.08 sec)
 [2024.01.24-23.38.57:473][300]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
 [2024.01.24-23.38.57:473][300]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.24-23.44.38:693][798]BlueprintLog: New page: Compile BP_CatThirdPersonCharacter
+[2024.01.24-23.44.38:732][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.01.24-23.44.41:434][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-23.44.41:525][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/BP_CatThirdPersonCharacter" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset" SILENT=true
+[2024.01.24-23.44.41:534][957]LogSavePackage: Moving output files for package: /Game/Characters/Cat/BP_CatThirdPersonCharacter
+[2024.01.24-23.44.41:534][957]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacter12BF4B297D2044A2BB565095AE173618.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset'
+[2024.01.24-23.44.41:551][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 3.20 sec)
+[2024.01.24-23.44.41:552][957]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
+[2024.01.24-23.44.41:552][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.24-23.46.38:399][860]LogSlate: Took 0.000726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.24-23.50.48:105][660]LogDerivedDataCache: /home/vi/.config/Epic/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.024 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1211 files in 1945 folders with total size 65 MiB.
+[2024.01.24-23.54.34:435][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.24-23.54.34:437][185]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.022
+[2024.01.24-23.54.34:438][185]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/Cat/ABP_Cat] ([2] browsable assets)...
+[2024.01.24-23.54.34:456][185]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat]
+[2024.01.24-23.54.34:456][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Cat/ABP_Cat]
+[2024.01.24-23.54.34:456][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/ABP_Cat_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.01.24-23.54.34:495][185]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Cat/ABP_Cat_Auto3
+[2024.01.24-23.54.34:495][185]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat_Auto3794835D554304EB2B0E1C6E5B4594D18.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/ABP_Cat_Auto3.uasset'
+[2024.01.24-23.54.34:496][185]LogFileHelpers: Auto-saving content packages took 0.058
+[2024.01.24-23.56.12:889][ 42]LogToolMenus: Warning: Menu 'AssetEditor.AnimationBlueprintEditor.MainMenu.Tools', item 'MakeStaticMesh', type not currently supported: 6
+[2024.01.24-23.56.29:505][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-23.56.29:505][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-23.56.29:563][973]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.24-23.56.30:188][  6]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.25-00.03.03:022][878]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.03.03:079][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.03.03:120][878]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.03.03:120][878]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatA9E3639EB5C74C46962ACE83F3190E68.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.03.03:134][878]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 3.31 sec)
+[2024.01.25-00.03.03:135][878]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.03.03:135][878]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.03.06:042][ 52]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.03.06:089][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.01.25-00.03.09:321][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.03.09:400][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.03.09:437][228]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.03.09:437][228]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatC20CFAB6AA054048B248E35B0E494F82.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.03.09:447][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 3.43 sec)
+[2024.01.25-00.03.09:448][228]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.03.09:448][228]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.07.55:927][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.07.56:020][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.07.56:056][331]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.07.56:056][331]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat438C60239C10428683900222A8A7F8F5.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.07.56:063][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 3.57 sec)
+[2024.01.25-00.07.56:063][331]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.07.56:063][331]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.07.58:061][446]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.07.58:108][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.01.25-00.09.26:310][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.09.26:396][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.09.26:433][593]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.09.26:433][593]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatAE12961C93C340E4B29331B070134D08.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.09.26:442][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 3.70 sec)
+[2024.01.25-00.09.26:443][593]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.09.26:443][593]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.09.27:610][659]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.09.27:658][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.25-00.09.30:549][827]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.09.30:638][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.09.30:676][827]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.09.30:677][827]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatC1CAB7C3ADED415897A2BB1ABDDD08EF.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.09.30:687][827]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 3.84 sec)
+[2024.01.25-00.09.30:688][827]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.09.30:688][827]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.10.27:077][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.10.27:165][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.10.27:202][112]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.10.27:202][112]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat68657CAE29374EC1B1120E97E0E1A8D0.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.10.27:211][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 3.97 sec)
+[2024.01.25-00.10.27:212][112]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.10.27:212][112]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.10.28:423][183]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.10.28:470][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.01.25-00.11.13:159][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.11.13:242][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.11.13:280][776]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.11.13:280][776]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat7C4C5E5EE807424B91952C75FB915688.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.11.13:290][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 4.11 sec)
+[2024.01.25-00.11.13:291][776]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.11.13:291][776]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.11.14:535][844]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.11.14:587][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.25-00.11.57:540][321]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.11.57:620][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.11.57:659][321]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.11.57:659][321]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat042E4C1C0139444FB7C38C18ABB770B0.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.11.57:664][321]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 4.23 sec)
+[2024.01.25-00.11.57:665][321]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.11.57:665][321]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.12.02:235][577]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.12.02:287][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.01.25-00.12.15:747][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.12.15:831][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.12.15:870][351]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.12.15:871][351]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatC32EFCEDADF14E3AA78C6317D1161302.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.12.15:877][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 4.36 sec)
+[2024.01.25-00.12.15:877][351]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.12.15:877][351]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.12.17:373][438]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.12.17:421][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.25-00.26.44:385][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.26.44:471][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/BP_CatThirdPersonCharacter" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset" SILENT=true
+[2024.01.25-00.26.44:481][764]LogSavePackage: Moving output files for package: /Game/Characters/Cat/BP_CatThirdPersonCharacter
+[2024.01.25-00.26.44:481][764]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacter2294495313EA4B63AEA9B154B92D2608.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset'
+[2024.01.25-00.26.44:497][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 4.47 sec)
+[2024.01.25-00.26.44:498][764]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
+[2024.01.25-00.26.44:498][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.25-00.26.45:788][842]BlueprintLog: New page: Compile BP_CatThirdPersonCharacter
+[2024.01.25-00.26.45:826][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.25-00.29.53:805][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.01.25-00.29.53:807][810]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.018
+[2024.01.25-00.29.53:808][810]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/Cat/ABP_Cat] ([2] browsable assets)...
+[2024.01.25-00.29.53:822][810]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat]
+[2024.01.25-00.29.53:822][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Cat/ABP_Cat]
+[2024.01.25-00.29.53:822][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/ABP_Cat_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2024.01.25-00.29.53:865][810]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Cat/ABP_Cat_Auto4
+[2024.01.25-00.29.53:865][810]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat_Auto48CD388DC7F5740679B16984846144E79.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/ABP_Cat_Auto4.uasset'
+[2024.01.25-00.29.53:865][810]LogFileHelpers: Auto-saving content packages took 0.057
+[2024.01.25-00.31.47:869][ 86]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-00.31.47:920][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.01.25-00.31.49:778][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.31.49:855][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.31.49:899][172]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.31.49:899][172]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat87DD6B59CFC04672A9FB902004741BBE.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.31.49:908][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 4.60 sec)
+[2024.01.25-00.31.49:909][172]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.31.49:909][172]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.32.58:048][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.32.58:105][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-00.32.58:142][832]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-00.32.58:143][832]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat9CC0A39EA94B4E46B7EC570C4D7EAAC6.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-00.32.58:158][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 4.71 sec)
+[2024.01.25-00.32.58:160][832]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-00.32.58:160][832]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-00.33.22:840][127]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.25-00.33.22:860][127]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.25-00.33.22:873][127]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.25-00.33.22:915][129]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.25-00.33.27:465][404]LogContentBrowser: Attempting asset rename: NewBlueprint -> Health
+[2024.01.25-00.33.27:470][404]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.25-00.33.29:224][509]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Components/Health.Health
+[2024.01.25-00.33.29:225][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-00.33.29:225][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-00.34.15:418][214]BlueprintLog: New page: Compile Health
+[2024.01.25-00.34.15:443][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.01.25-00.34.21:609][582]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.34.21:669][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.34.21:670][582]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.34.21:670][582]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health3E8B5F2A16AD4860B3E41401D68CD1E7.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.34.21:723][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 4.82 sec)
+[2024.01.25-00.34.21:723][582]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.34.21:723][582]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.37.47:897][307]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.37.47:954][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.37.47:956][307]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.37.47:956][307]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/HealthF9CF94C38E3F4DDEB95997F63AFBCA0B.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.37.48:009][307]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 4.94 sec)
+[2024.01.25-00.37.48:010][307]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.37.48:010][307]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.37.49:562][399]BlueprintLog: New page: Compile Health
+[2024.01.25-00.37.49:589][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.25-00.38.28:113][511]BlueprintLog: New page: Compile Health
+[2024.01.25-00.38.28:129][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.01.25-00.39.38:400][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.39.38:457][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.39.38:459][603]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.39.38:460][603]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health0D07F04B87524CAB88EDF84C34D87E69.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.39.38:510][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 5.05 sec)
+[2024.01.25-00.39.38:511][603]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.39.38:511][603]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.39.43:000][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.39.43:059][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.39.43:061][873]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.39.43:061][873]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health08420C76B8B44268AECA487AEFFA505F.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.39.43:111][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 5.16 sec)
+[2024.01.25-00.39.43:112][873]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.39.43:112][873]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.40.51:610][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.01.25-00.40.51:613][955]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.016
+[2024.01.25-00.40.51:613][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Components/Health] ([2] browsable assets)...
+[2024.01.25-00.40.51:613][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/Health]
+[2024.01.25-00.40.51:613][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Saved/Autosaves/Game/Components/Health_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2024.01.25-00.40.51:616][955]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Components/Health_Auto5
+[2024.01.25-00.40.51:616][955]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health_Auto584B4F17DEB6F4EE89500DF4864D78CCD.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Components/Health_Auto5.uasset'
+[2024.01.25-00.40.51:616][955]LogFileHelpers: Auto-saving content packages took 0.003
+[2024.01.25-00.47.27:656][698]LogEditorTransaction: Undo Create Pin Link
+[2024.01.25-00.47.27:978][698]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.25-00.47.27:979][698]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.25-00.48.11:157][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.48.11:215][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.48.11:220][468]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.48.11:220][468]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health2C4C758E21D34F70AC71483CEC3E773B.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.48.11:268][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 5.27 sec)
+[2024.01.25-00.48.11:268][468]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.48.11:268][468]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.48.13:087][578]BlueprintLog: New page: Compile Health
+[2024.01.25-00.48.13:089][578]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Components/Health.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2024.01.25-00.48.13:110][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.25-00.50.00:734][507]BlueprintLog: New page: Compile Health
+[2024.01.25-00.50.00:736][507]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Components/Health.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2024.01.25-00.50.00:754][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.25-00.50.01:785][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.50.01:836][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.50.01:841][568]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.50.01:842][568]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/HealthABAEF03E3BE94E6DB5DE49C97B104CC0.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.50.01:890][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 5.37 sec)
+[2024.01.25-00.50.01:891][568]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.50.01:891][568]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.50.49:096][386]LogDerivedDataCache: /home/vi/.config/Epic/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.013 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1211 files in 1945 folders with total size 65 MiB.
+[2024.01.25-00.51.26:904][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.51.26:962][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.51.26:967][760]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.51.26:967][760]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health1C157BDE33E148449062B47EBACEF17C.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.51.27:019][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 5.49 sec)
+[2024.01.25-00.51.27:020][760]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.51.27:020][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.52.48:938][650]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.52.48:996][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.52.49:001][650]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.52.49:001][650]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health280AD66859F541EDB69DCBDD184A6A2A.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.52.49:053][650]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 5.60 sec)
+[2024.01.25-00.52.49:053][650]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.52.49:053][650]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.52.52:530][857]BlueprintLog: New page: Compile Health
+[2024.01.25-00.52.52:532][857]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Components/Health.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2024.01.25-00.52.52:550][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.25-00.53.15:603][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.53.15:660][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.53.15:665][211]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.53.15:665][211]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health42F38305F9F24403A676D4C4847FAF57.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.53.15:713][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 5.71 sec)
+[2024.01.25-00.53.15:714][211]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.53.15:714][211]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.53.17:018][287]BlueprintLog: New page: Compile Health
+[2024.01.25-00.53.17:020][287]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Components/Health.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2024.01.25-00.53.17:040][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.25-00.55.45:440][146]BlueprintLog: New page: Compile Health
+[2024.01.25-00.55.45:442][146]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Components/Health.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2024.01.25-00.55.45:460][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.25-00.56.47:910][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.56.47:970][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Health" FILE="../../../../../ggj24/ggj24/Content/Components/Health.uasset" SILENT=true
+[2024.01.25-00.56.47:974][892]LogSavePackage: Moving output files for package: /Game/Components/Health
+[2024.01.25-00.56.47:974][892]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Health292300C54DE2403AA9BF79D3D9E49585.tmp' to '../../../../../ggj24/ggj24/Content/Components/Health.uasset'
+[2024.01.25-00.56.48:023][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 5.83 sec)
+[2024.01.25-00.56.48:023][892]AssetCheck: New page: Asset Save: Health
+[2024.01.25-00.56.48:023][892]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Health.Health
+[2024.01.25-00.57.04:316][849]LogContentBrowser: Attempting asset rename: Health -> Bp_HealthComponent
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.SKEL_Bp_HealthComponent_C' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent_C' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent:HandleTakeDamage.K2Node_FunctionEntry_0' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent_C:HandleTakeDamage__DelegateSignature' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent_C:TakeDamage' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent_C:ReceiveBeginPlay' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.SKEL_Bp_HealthComponent_C:TakeDamage' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.SKEL_Bp_HealthComponent_C:ReceiveTick' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.SKEL_Bp_HealthComponent_C:ReceiveBeginPlay' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.SKEL_Bp_HealthComponent_C:HandleTakeDamage__DelegateSignature' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:346][849]LogMetaData: Removing '/Game/Components/Bp_HealthComponent.Bp_HealthComponent:TakeDamage.K2Node_FunctionEntry_0' ref from Metadata '/Game/Components/Health.PackageMetaData'
+[2024.01.25-00.57.04:351][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.57.04:389][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Bp_HealthComponent" FILE="../../../../../ggj24/ggj24/Content/Components/Bp_HealthComponent.uasset" SILENT=true
+[2024.01.25-00.57.04:393][849]LogSavePackage: Moving output files for package: /Game/Components/Bp_HealthComponent
+[2024.01.25-00.57.04:393][849]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Bp_HealthComponentCEFE53CBF0D940B790B8059D041F121D.tmp' to '../../../../../ggj24/ggj24/Content/Components/Bp_HealthComponent.uasset'
+[2024.01.25-00.57.04:443][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 5.92 sec)
+[2024.01.25-00.57.04:468][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.25-00.57.04:490][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.25-00.57.04:507][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.01.25-00.57.04:510][849]AssetCheck: New page: Asset Save: Bp_HealthComponent
+[2024.01.25-00.57.04:510][849]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Bp_HealthComponent.Bp_HealthComponent
+[2024.01.25-00.57.36:058][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.57.36:117][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Bp_HealthComponent" FILE="../../../../../ggj24/ggj24/Content/Components/Bp_HealthComponent.uasset" SILENT=true
+[2024.01.25-00.57.36:121][484]LogSavePackage: Moving output files for package: /Game/Components/Bp_HealthComponent
+[2024.01.25-00.57.36:121][484]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Bp_HealthComponent35F1BB343CA14C68A703D26ABA30C5AC.tmp' to '../../../../../ggj24/ggj24/Content/Components/Bp_HealthComponent.uasset'
+[2024.01.25-00.57.36:171][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 6.03 sec)
+[2024.01.25-00.57.36:171][484]AssetCheck: New page: Asset Save: Bp_HealthComponent
+[2024.01.25-00.57.36:171][484]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Bp_HealthComponent.Bp_HealthComponent
+[2024.01.25-00.59.23:816][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-00.59.23:868][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Components/Bp_HealthComponent" FILE="../../../../../ggj24/ggj24/Content/Components/Bp_HealthComponent.uasset" SILENT=true
+[2024.01.25-00.59.23:873][210]LogSavePackage: Moving output files for package: /Game/Components/Bp_HealthComponent
+[2024.01.25-00.59.23:873][210]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/Bp_HealthComponentC42AB5C1B81740918300FFB0ECCEC0F1.tmp' to '../../../../../ggj24/ggj24/Content/Components/Bp_HealthComponent.uasset'
+[2024.01.25-00.59.23:920][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 6.14 sec)
+[2024.01.25-00.59.23:920][210]AssetCheck: New page: Asset Save: Bp_HealthComponent
+[2024.01.25-00.59.23:920][210]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Components/Bp_HealthComponent.Bp_HealthComponent
+[2024.01.25-00.59.27:490][425]BlueprintLog: New page: Compile Bp_HealthComponent
+[2024.01.25-00.59.27:511][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.01.25-01.02.07:317][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.25-01.02.07:322][900]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.023
+[2024.01.25-01.02.07:323][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Cat/BP_CatThirdPersonCharacter] ([2] browsable assets)...
+[2024.01.25-01.02.07:338][900]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter]
+[2024.01.25-01.02.07:338][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Cat/BP_CatThirdPersonCharacter]
+[2024.01.25-01.02.07:348][900]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Cat/BP_CatThirdPersonCharacter_Auto6
+[2024.01.25-01.02.07:348][900]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacter_Auto6130CC820536E4FEFA969375184BBBABB.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/BP_CatThirdPersonCharacter_Auto6.uasset'
+[2024.01.25-01.02.07:349][900]LogFileHelpers: Auto-saving content packages took 0.026
+[2024.01.25-01.09.28:334][804]BlueprintLog: New page: Compile BP_CatThirdPersonCharacter
+[2024.01.25-01.09.28:370][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.25-01.09.31:317][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.09.31:403][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/BP_CatThirdPersonCharacter" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset" SILENT=true
+[2024.01.25-01.09.31:411][972]LogSavePackage: Moving output files for package: /Game/Characters/Cat/BP_CatThirdPersonCharacter
+[2024.01.25-01.09.31:412][972]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacter526556130E2741518F4804C7D8657035.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset'
+[2024.01.25-01.09.31:425][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 6.24 sec)
+[2024.01.25-01.09.31:426][972]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
+[2024.01.25-01.09.31:426][972]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.25-01.12.07:510][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.01.25-01.12.07:517][208]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.024
+[2024.01.25-01.12.07:517][208]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Cat/BP_CatThirdPersonCharacter] ([2] browsable assets)...
+[2024.01.25-01.12.07:534][208]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter]
+[2024.01.25-01.12.07:534][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Cat/BP_CatThirdPersonCharacter]
+[2024.01.25-01.12.07:547][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Cat/BP_CatThirdPersonCharacter_Auto7
+[2024.01.25-01.12.07:547][208]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacter_Auto749AA718BAA704DECA163B3C827027604.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/BP_CatThirdPersonCharacter_Auto7.uasset'
+[2024.01.25-01.12.07:548][208]LogFileHelpers: Auto-saving content packages took 0.031
+[2024.01.25-01.16.20:592][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.16.20:667][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-01.16.20:705][497]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-01.16.20:705][497]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat68669732C1EF4C67B389493C82791B5F.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-01.16.20:714][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 6.37 sec)
+[2024.01.25-01.16.20:715][497]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-01.16.20:715][497]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-01.16.24:162][685]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-01.16.24:218][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.01.25-01.17.07:932][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.17.08:020][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-01.17.08:059][222]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-01.17.08:059][222]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat50EB4D9D8AC84A63853E672D9951C857.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-01.17.08:066][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 6.50 sec)
+[2024.01.25-01.17.08:066][222]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-01.17.08:066][222]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-01.17.11:905][444]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-01.17.11:954][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.25-01.17.12:885][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.17.12:969][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-01.17.13:009][493]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-01.17.13:009][493]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat42575BED7BD3406E98C0FB3CA9B06B05.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-01.17.13:017][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 6.63 sec)
+[2024.01.25-01.17.13:018][493]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-01.17.13:018][493]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-01.17.14:481][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.01.25-01.17.16:305][569]LogSlate: Window 'Save Content' being destroyed
+[2024.01.25-01.17.16:327][569]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.17.16:390][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/BP_CatThirdPersonCharacter" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset" SILENT=true
+[2024.01.25-01.17.16:399][569]LogSavePackage: Moving output files for package: /Game/Characters/Cat/BP_CatThirdPersonCharacter
+[2024.01.25-01.17.16:399][569]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacterBB2B7EE4AA154647AE9E24361431D0D5.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset'
+[2024.01.25-01.17.16:417][569]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 6.72 sec)
+[2024.01.25-01.17.16:418][569]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
+[2024.01.25-01.17.16:418][569]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.25-01.19.26:662][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.19.26:756][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/BP_CatThirdPersonCharacter" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset" SILENT=true
+[2024.01.25-01.19.26:769][979]LogSavePackage: Moving output files for package: /Game/Characters/Cat/BP_CatThirdPersonCharacter
+[2024.01.25-01.19.26:770][979]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacterA0020F5025514F60AFF4DAF779949840.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset'
+[2024.01.25-01.19.26:775][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 6.83 sec)
+[2024.01.25-01.19.26:776][979]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
+[2024.01.25-01.19.26:776][979]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.25-01.19.31:850][284]BlueprintLog: New page: Compile BP_CatThirdPersonCharacter
+[2024.01.25-01.19.31:856][284]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a ABP_Cat_C, therefore ' Target ' must have a connection.
+[2024.01.25-01.19.31:856][284]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a ABP_Cat_C, therefore ' Target ' must have a connection.
+[2024.01.25-01.19.31:856][284]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a ABP_Cat_C, therefore ' Target ' must have a connection.
+[2024.01.25-01.19.31:884][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.01.25-01.22.38:460][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.25-01.22.38:467][152]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.024
+[2024.01.25-01.22.38:467][152]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Cat/BP_CatThirdPersonCharacter] ([2] browsable assets)...
+[2024.01.25-01.22.38:483][152]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter]
+[2024.01.25-01.22.38:483][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Cat/BP_CatThirdPersonCharacter]
+[2024.01.25-01.22.38:495][152]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Cat/BP_CatThirdPersonCharacter_Auto8
+[2024.01.25-01.22.38:495][152]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacter_Auto8F4275D6467EB43969A0C0BB87F86C9E9.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/BP_CatThirdPersonCharacter_Auto8.uasset'
+[2024.01.25-01.22.38:495][152]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.01.25-01.26.55:144][758]BlueprintLog: New page: Compile BP_CatThirdPersonCharacter
+[2024.01.25-01.26.55:147][758]LogBlueprint: Warning: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] Cast To ABP_Cat  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.01.25-01.26.55:151][758]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a ABP_Cat_C, therefore ' Target ' must have a connection.
+[2024.01.25-01.26.55:151][758]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a ABP_Cat_C, therefore ' Target ' must have a connection.
+[2024.01.25-01.26.55:151][758]LogBlueprint: Error: [AssetLog] /home/vi/Documents/projects/ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a ABP_Cat_C, therefore ' Target ' must have a connection.
+[2024.01.25-01.26.55:182][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.25-01.34.48:531][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.34.48:620][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/BP_CatThirdPersonCharacter" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset" SILENT=true
+[2024.01.25-01.34.48:630][967]LogSavePackage: Moving output files for package: /Game/Characters/Cat/BP_CatThirdPersonCharacter
+[2024.01.25-01.34.48:631][967]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/BP_CatThirdPersonCharacterCE357C0299DA4E0AB9451C578E986CD0.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/BP_CatThirdPersonCharacter.uasset'
+[2024.01.25-01.34.48:641][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 6.94 sec)
+[2024.01.25-01.34.48:642][967]AssetCheck: New page: Asset Save: BP_CatThirdPersonCharacter
+[2024.01.25-01.34.48:642][967]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Cat/BP_CatThirdPersonCharacter.BP_CatThirdPersonCharacter
+[2024.01.25-01.34.50:790][ 96]BlueprintLog: New page: Compile BP_CatThirdPersonCharacter
+[2024.01.25-01.34.50:838][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.01.25-01.37.04:205][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.25-01.37.04:211][884]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Characters/Cat/Cat_ThirdPersonMap' took 0.023
+[2024.01.25-01.37.04:211][884]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/Cat/ABP_Cat] ([2] browsable assets)...
+[2024.01.25-01.37.04:231][884]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat]
+[2024.01.25-01.37.04:231][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Cat/ABP_Cat]
+[2024.01.25-01.37.04:231][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/ABP_Cat_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2024.01.25-01.37.04:270][884]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Cat/ABP_Cat_Auto9
+[2024.01.25-01.37.04:270][884]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat_Auto9B316D08736F84DA6AE4CE16F3EB4F89F.tmp' to '../../../../../ggj24/ggj24/Saved/Autosaves/Game/Characters/Cat/ABP_Cat_Auto9.uasset'
+[2024.01.25-01.37.04:271][884]LogFileHelpers: Auto-saving content packages took 0.060
+[2024.01.25-01.41.17:688][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.41.17:777][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-01.41.17:816][768]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-01.41.17:817][768]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatA7FB2AD724B640D18B7A8B1C78C59ACD.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-01.41.17:823][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 7.08 sec)
+[2024.01.25-01.41.17:824][768]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-01.41.17:824][768]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-01.41.25:084][199]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-01.41.25:133][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.25-01.41.37:054][817]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2024.01.25-01.45.15:979][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.45.16:039][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/IMC_Default" FILE="../../../../../ggj24/ggj24/Content/ThirdPerson/Input/IMC_Default.uasset" SILENT=true
+[2024.01.25-01.45.16:041][310]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/IMC_Default
+[2024.01.25-01.45.16:041][310]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/IMC_DefaultA706AB57DF6B448A960E2DFA93F19740.tmp' to '../../../../../ggj24/ggj24/Content/ThirdPerson/Input/IMC_Default.uasset'
+[2024.01.25-01.45.16:092][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 7.19 sec)
+[2024.01.25-01.45.16:093][310]AssetCheck: New page: Asset Save: IMC_Default
+[2024.01.25-01.45.16:093][310]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2024.01.25-01.45.25:391][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-01.45.25:441][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/IMC_Default" FILE="../../../../../ggj24/ggj24/Content/ThirdPerson/Input/IMC_Default.uasset" SILENT=true
+[2024.01.25-01.45.25:443][868]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/IMC_Default
+[2024.01.25-01.45.25:444][868]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/IMC_Default247F37B2371D4A81A7A9A20FEBED084D.tmp' to '../../../../../ggj24/ggj24/Content/ThirdPerson/Input/IMC_Default.uasset'
+[2024.01.25-01.45.25:493][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 7.29 sec)
+[2024.01.25-01.45.25:494][868]AssetCheck: New page: Asset Save: IMC_Default
+[2024.01.25-01.45.25:494][868]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2024.01.25-01.45.35:263][455]LogViewport: Scene viewport resized to 1350x1264, mode Windowed.
+[2024.01.25-01.45.35:867][491]LogViewport: Scene viewport resized to 2038x1300, mode Windowed.
+[2024.01.25-01.45.40:962][786]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.25-01.45.40:966][786]LogContentBundle: [Cat_ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-01.45.40:966][786]LogWorldPartition: Display: GenerateStreaming for 'Cat_ThirdPersonMap' started...
+[2024.01.25-01.45.40:967][786]LogWorldPartition: Display: GenerateStreaming for 'Cat_ThirdPersonMap' took 833 us (total: 2 ms)
+[2024.01.25-01.45.40:967][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-01.45.40:967][786]PIE: New page: PIE session: Cat_ThirdPersonMap (Jan 24, 2024, 11:45:40 AM)
+[2024.01.25-01.45.40:992][786]LogPlayLevel: Creating play world package: /Game/Characters/Cat/UEDPIE_0_Cat_ThirdPersonMap
+[2024.01.25-01.45.40:995][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003061s)
+[2024.01.25-01.45.40:995][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/Cat/Cat_ThirdPersonMap.Cat_ThirdPersonMap to /Game/Characters/Cat/UEDPIE_0_Cat_ThirdPersonMap.Cat_ThirdPersonMap (0.003090s)
+[2024.01.25-01.45.41:010][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.01.25-01.45.41:014][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-01.45.41:014][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-01.45.41:015][786]LogAIModule: Creating AISystem for world Cat_ThirdPersonMap
+[2024.01.25-01.45.41:015][786]LogWorldPartition: ULevel::OnLevelLoaded(Cat_ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-01.45.41:015][786]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-01.45.41:015][786]LogWorldPartition: UWorldPartition::Initialize : World = Cat_ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-01.45.41:015][786]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-01.45.41:016][786]LogContentBundle: [Cat_ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-01.45.41:016][786]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 68 ms)
+[2024.01.25-01.45.41:016][786]LogPlayLevel: PIE: World Init took: (0.002327s)
+[2024.01.25-01.45.41:016][786]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-01.45.41:016][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.25-01.45.41:016][786]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-01.45.41:017][786]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-01.45.41:017][786]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-01.45.41:017][786]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-01.45.41:017][786]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2024.01.25-01.45.41:017][786]LogAudioMixer: Display: Initializing audio mixer using platform API: 'SDL2'
+[2024.01.25-01.45.41:346][786]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2024.01.25-01.45.41:347][786]LogAudioMixer: Display: Using Audio Hardware Device Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI)
+[2024.01.25-01.45.41:347][786]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-01.45.41:347][786]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-01.45.41:347][786]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-01.45.41:348][786]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=3
+[2024.01.25-01.45.41:348][786]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.25-01.45.41:348][786]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.25-01.45.41:348][786]LogAudio: Display: Audio Device (ID: 3) registered with world 'Cat_ThirdPersonMap'.
+[2024.01.25-01.45.41:349][786]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.25-01.45.41:351][786]LogLoad: Game class is 'BP_CatThirdPersonGameMode_C'
+[2024.01.25-01.45.41:352][786]LogWorld: Bringing World /Game/Characters/Cat/UEDPIE_0_Cat_ThirdPersonMap.Cat_ThirdPersonMap up for play (max tick rate 0) at 2024.01.24-18.45.41
+[2024.01.25-01.45.41:353][786]LogWorld: Bringing up level for play took: 0.001847
+[2024.01.25-01.45.41:353][786]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.01.25-01.45.41:355][786]PIE: Server logged in
+[2024.01.25-01.45.41:355][786]PIE: Play in editor total start time 0.389 seconds.
+[2024.01.25-01.45.59:248][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-01.45.59:248][860]LogWorld: BeginTearingDown for /Game/Characters/Cat/UEDPIE_0_Cat_ThirdPersonMap
+[2024.01.25-01.45.59:248][860]LogWorld: UWorld::CleanupWorld for Cat_ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-01.45.59:248][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-01.45.59:248][860]LogContentBundle: [Cat_ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-01.45.59:257][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-01.45.59:261][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-01.45.59:278][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-01.45.59:279][860]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.25-01.45.59:324][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.25-01.45.59:360][861]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.01.25-01.46.20:462][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-01.46.20:463][ 20]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-01.46.20:520][ 20]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-01.46.20:520][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-01.50.48:107][866]LogDerivedDataCache: /home/vi/.config/Epic/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.021 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1211 files in 1945 folders with total size 65 MiB.
+[2024.01.25-02.45.09:533][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-02.45.09:624][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-02.45.09:674][289]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-02.45.09:674][289]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_Cat82950E07D17C46D5B613A7AF1C8BE71F.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-02.45.09:682][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 7.44 sec)
+[2024.01.25-02.45.09:683][289]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-02.45.09:683][289]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-02.45.18:335][722]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-02.45.43:647][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-02.45.43:652][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-02.45.47:084][185]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2024.01.25-02.45.47:084][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-02.45.47:084][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-02.45.47:086][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-02.45.47:086][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-02.45.47:088][185]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.25-02.45.47:587][185]LogViewport: Scene viewport resized to 636x611, mode Windowed.
+[2024.01.25-02.46.59:736][311]LogViewport: Scene viewport resized to 421x593, mode Windowed.
+[2024.01.25-02.47.01:821][425]LogViewport: Scene viewport resized to 422x596, mode Windowed.
+[2024.01.25-02.47.01:856][426]LogViewport: Scene viewport resized to 636x611, mode Windowed.
+[2024.01.25-02.48.07:709][193]BlueprintLog: New page: Compile ABP_Cat
+[2024.01.25-02.48.07:792][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.25-02.48.10:867][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-02.48.10:953][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Cat/ABP_Cat" FILE="../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset" SILENT=true
+[2024.01.25-02.48.11:001][367]LogSavePackage: Moving output files for package: /Game/Characters/Cat/ABP_Cat
+[2024.01.25-02.48.11:001][367]LogSavePackage: Moving '../../../../../ggj24/ggj24/Saved/ABP_CatD40FC62353764182A26C6070BDAC8FDA.tmp' to '../../../../../ggj24/ggj24/Content/Characters/Cat/ABP_Cat.uasset'
+[2024.01.25-02.48.11:010][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 7.59 sec)
+[2024.01.25-02.48.11:011][367]AssetCheck: New page: Asset Save: ABP_Cat
+[2024.01.25-02.48.11:011][367]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/Cat/ABP_Cat.ABP_Cat
+[2024.01.25-02.48.25:257][155]LogVulkanRHI: Error: Result failed, VkResult=-3
+ at ./Runtime/VulkanRHI/Private/VulkanSwapChain.cpp:545 
+ with error VK_ERROR_INITIALIZATION_FAILED
+[2024.01.25-02.48.25:257][155]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2024.01.25-02.48.25:278][155]LogCore: Error: appError called: Fatal error: [File:./Runtime/VulkanRHI/Private/VulkanUtil.cpp] [Line: 1131] 
+Result failed, VkResult=-3
+ at ./Runtime/VulkanRHI/Private/VulkanSwapChain.cpp:545 
+ with error VK_ERROR_INITIALIZATION_FAILED
+0x00007f0b2044db97 libUnrealEditor-VulkanRHI.so!VulkanRHI::VerifyVulkanResult(VkResult, char const*, char const*, unsigned int) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanUtil.cpp:1130]
+0x00007f0b2040ed72 libUnrealEditor-VulkanRHI.so!FVulkanSwapChain::FVulkanSwapChain(VkInstance_T*, FVulkanDevice&, void*, EPixelFormat&, unsigned int, unsigned int, bool, unsigned int*, TArray<VkImage_T*, TSizedDefaultAllocator<32> >&, signed char, FVulkanSwapChainRecreateInfo*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanSwapChain.cpp:545]
+0x00007f0b204598c3 libUnrealEditor-VulkanRHI.so!FVulkanViewport::CreateSwapchain(FVulkanSwapChainRecreateInfo*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanViewport.cpp:703]
+0x00007f0b204594a1 libUnrealEditor-VulkanRHI.so!FVulkanViewport::FVulkanViewport(FVulkanDevice*, void*, unsigned int, unsigned int, bool, EPixelFormat) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanViewport.cpp:135]
+0x00007f0b2046068f libUnrealEditor-VulkanRHI.so!FVulkanDynamicRHI::RHICreateViewport(void*, unsigned int, unsigned int, bool, EPixelFormat) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/VulkanRHI/Private/VulkanViewport.cpp:1121]
+0x00007f0c3bdcc799 libUnrealEditor-SlateRHIRenderer.so!FSlateRHIRenderer::CreateViewport(TSharedRef<SWindow, (ESPMode)1>) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateRHIRenderer/Private/SlateRHIRenderer.cpp:417]
+0x00007f0c5eaa5a6c libUnrealEditor-SlateCore.so!SWindow::ShowWindow() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWindow.cpp:1411]
+0x00007f0c515d3795 libUnrealEditor-GraphEditor.so!FGraphEditorDragDropAction::SetFeedbackMessage(TSharedPtr<SWidget, (ESPMode)1> const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/GraphEditorDragDropAction.cpp:138]
+0x00007f0c515d2b51 libUnrealEditor-GraphEditor.so!FGraphEditorDragDropAction::SetSimpleFeedbackMessage(FSlateBrush const*, FSlateColor const&, FText const&, FSlateBrush const*, FSlateColor) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/GraphEditorDragDropAction.cpp:167]
+0x00007f0c515d0c12 libUnrealEditor-GraphEditor.so!FDragConnection::HoverTargetChanged() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/DragConnection.cpp:153]
+0x00007f0c515ed9f7 libUnrealEditor-GraphEditor.so!FGraphEditorDragDropAction::Construct() [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/GraphEditorDragDropAction.cpp:126]
+0x00007f0c515d017f libUnrealEditor-GraphEditor.so!FDragConnection::New(TSharedRef<SGraphPanel, (ESPMode)1> const&, TArray<FGraphPinHandle, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/DragConnection.cpp:41]
+0x00007f0c5189aa63 libUnrealEditor-GraphEditor.so!SGraphPin::SpawnPinDragEvent(TSharedRef<SGraphPanel, (ESPMode)1> const&, TArray<TSharedRef<SGraphPin, (ESPMode)1>, TSizedDefaultAllocator<32> > const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/SGraphPin.cpp:598]
+0x00007f0c5189915f libUnrealEditor-GraphEditor.so!SGraphPin::OnPinMouseDown(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/SGraphPin.cpp:521]
+0x00007f0c518987e0 libUnrealEditor-GraphEditor.so!SGraphPin::OnPinNameMouseDown(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Editor/GraphEditor/Private/SGraphPin.cpp:547]
+0x00007f0c518b3303 libUnrealEditor-GraphEditor.so!TBaseSPMethodDelegateInstance<false, SGraphPin, (ESPMode)1, FReply (FGeometry const&, FPointerEvent const&), FDefaultDelegateUserPolicy>::Execute(FGeometry const&, FPointerEvent const&) const [/mnt/horde/++UE5/Sync/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:281]
+0x00007f0c5ea98073 libUnrealEditor-SlateCore.so!SWidget::OnMouseButtonDown(FGeometry const&, FPointerEvent const&) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWidget.cpp:469]
+0x00007f0c5f0b8e00 libUnrealEditor-Slate.so!FSlateApplicatio
+
+
+

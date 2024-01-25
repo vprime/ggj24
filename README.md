@@ -91,15 +91,16 @@ Stink physics
 - [x] Vi: Player input   
 - [x] Vi: Player model (Cat)
 - [x] Vi: Animation controller
-- [ ] NPC controller (Mice, Dogs, Birds, People)
-- [ ] NPC spawner
+- [ ] Isaac: NPC controller (Mice, Dogs, Birds, People)
+- [ ] Isaac: NPC spawner
 - [ ] Trap controller 
 - [ ] Trap models (Mousetraps, Exploding barrels, Water, Catbox, Sleeping dogs, Glue traps, Sticks to you)
 - [ ] Primary game mode (Capture rodents)
+- [ ] Vi: Grab and Hold Rodents
 - [ ] Win handler (Rodent capture count)
 - [ ] Loose handler (Time limit or a rodent target)
-- [ ] Game main menu
-- [ ] Pause menu
+- [ ] Tyler: Game main menu
+- [ ] Tyler: Pause menu
 - [ ] End game
 - [ ] Reset game
 - [ ] Will: Scene static layout

@@ -6,7 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/MM/0MFFEPQEKSNQ4H8U1NKZ7B.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/Characters/Mices/Mouse_12_Text_001.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/Characters/Mices/Mouse_12_Cube.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/Characters/Mices/Material_003.uasset",
@@ -22,12 +21,22 @@
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/RN/RKXMOPSQVQSAUWM00BEVJ2.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/M7/HNHHLPQTPVLFL5A8AU7KF9.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/TN/PMTW1MA8NV2JHHEEKMFFPA.uasset",
-				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CH/C3TOMLBE5T2IPS4DOK798L.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/KJ/6DWO4RS7EKC1M67SP6XFAY.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/ER/YNJSZZ5EXBNAZ4C5ROX7ZQ.uasset",
 				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/Characters/Mices/MicePawn.uasset",
-				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/S0/6YS7X6263YFEEG6RC3QTV8.uasset"
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/S0/6YS7X6263YFEEG6RC3QTV8.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/A/RC/NJLG9V0XKY8I3CTDIO63N2.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/6/1O/0T1VXGSS9XJ1URH46SI04G.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/4/3S/XBBPFSM7DDB6413T7P7TV1.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/E/E9/6GT091652J4X0LL4A0FR8Q.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/8/LX/Z7FDRAE68DQS03DGRXXLYD.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/2/TV/5B50NKOUWK9LUD0E1VW9G0.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/8/PF/6GH6ZOOPDX7OO3GJEE1K4K.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/6/C8/91UXPRJ3ZKVB853DJBOIVW.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/Tylers_Stuff_No_Touch/Maps/Cat_ThirdPersonMap/0/LJ/7D9W4TNKWKIORPXMNWRK66.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/MM/0MFFEPQEKSNQ4H8U1NKZ7B.uasset",
+				"C:/Users/joshu/Documents/GitHub/ggj24/ggj24/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CH/C3TOMLBE5T2IPS4DOK798L.uasset"
 			]
 		}
 	]

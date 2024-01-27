@@ -2,10 +2,11 @@
 
 ## Team
 - Vi Prime      @vprime             Art / Programming
-- Tyler Shauger @Tyler-Shauger      Programming / UI
+- Tyler Shauger @Tyler-Shauger      Programming / UI / Level Design
 - Will Kostecki @WillKostecki       Art / Programming
 - Isaac Pahona  @CheftoTheLeft      artificial intelligence / Art / Programming
-- Tutu                              Support
+- Valarie Prime @deviantdear        Sounds
+- Tutu                              Moral Support
 
 ---
 
@@ -94,32 +95,25 @@ Stink physics
 - [ ] Isaac: NPC controller (Mice, Dogs, Birds, People)
 - [ ] Isaac: NPC spawner
 - [x] Trap controller 
-- [ ] Trap models (Mousetraps, Exploding barrels, Water, Catbox, Sleeping dogs, Glue traps, Sticks to you)
-- [ ] Primary game mode (Capture rodents)
+- [ ] Vi: Hazards (Mousetraps, Exploding barrels, Water, Catbox, Sleeping dogs, Glue traps, Sticks to you)
+- [ ] Will: Primary game mode (Capture rodents)
 - [x] Vi: Grab and Hold Rodents
-- [ ] Win handler (Rodent capture count)
-- [ ] Loose handler (Time limit or a rodent target)
+- [ ] Will: Win handler (Rodent capture count)
+- [ ] Tyler: Loose handler (Time limit or a rodent target)
 - [x] Tyler: Game main menu
 - [x] Tyler: Pause menu
 - [ ] End game
 - [ ] Reset game
-- [ ] Will: Scene static layout
-- [ ] Will: Scene dynamic layout
-- [ ] Will: Scene static lighting
-- [ ] Will: Scene dynamic lighting
-- [ ] Game Story
+- [x] Will & Tyler: Scene static layout
+- [x] Will & Tyler: Scene dynamic layout
+- [x] Will & Tyler: Scene static lighting
+- [x] Will & Tyler: Scene dynamic lighting
+- [ ] :akko-shrug: Game Story
 - [ ] Opening Storyboard
-- [ ] Opening graphics
+- [x] Tyler: Opening graphics
 - [ ] Opening sequence programming
-- [ ] Entrypoint storyboard
-- [ ] Entrypoint graphics
-- [ ] Entrypoint sequence programming
-- [ ] Win storyboard
-- [ ] Win graphics
-- [ ] Loose storyboard
-- [ ] Loose graphics
-- [ ] WinLoss Sequence programming
-- [ ] Preloading & Pause menu
+- [x] Tyler: Win graphics
+- [x] Tyler: Loose graphics
 - [ ] Settings
 
 

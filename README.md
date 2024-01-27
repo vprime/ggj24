@@ -179,6 +179,7 @@ Cat Running
 - Glue spill (Grabs objects, makes it hard to move until broken free)
 - Explosion (Impulse effect)
 - Sticky objects (Sticks to whatever touches it, hard to remove)
+- Spawn hazard actors
 - Knockout (Temp Ragdoll effect on animated bodies)
 
 #### Glue spill hazard

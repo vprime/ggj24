@@ -137,10 +137,11 @@ Tutu is playing pokemon
 
 
 ### Wednesday
-
+Merged in Cat with walk, run, jump, and bap
 
 ### Thursday 
-
+merged in UI from tyler
+merged in tackle from Vi
 
 ### Friday
 
@@ -173,4 +174,20 @@ rear left up and forward just before last foot starts going down
 
 
 Cat Running
+
+### Hazards
+- Glue spill (Grabs objects, makes it hard to move until broken free)
+- Explosion (Impulse effect)
+- Sticky objects (Sticks to whatever touches it, hard to remove)
+- Spawn hazard actors
+- Knockout (Temp Ragdoll effect on animated bodies)
+
+#### Glue spill hazard
+In the simplest form, this would be an object that will stick to other physical objects when they touch.
+If we want to get fancy, I think a parent object could allow the glue to flow around.
+A spawner could pour out a bunch of these physical glue balls, then when a dynamic body touches it the actual glue would trigger and hold.
+
+Current issues
+- Cat don't stick, probably because it's non physical
+- Need to dial in the stickyness, but that will depend on the cat.
 

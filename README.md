@@ -13,6 +13,15 @@ Full Steam Ahead
 - Valarie Adams @deviantdear        Sounds
 - Tutu                              Moral Support
 
+
+## 3rd party assets and contributions
+- Unreal Engine 5
+- Steamboat Willie by tramdrey https://sketchfab.com/3d-models/steamboat-willie-58c5716c49c947f2a5aa152cec39cec0
+- Unreal Engine Starter Content
+- Epic Games Entertainment Pack 1 (Download Source: Unreal Engine Marketplace)
+- Epic Games Storages Pack 1 (Download Source: Unreal Engine Marketplace)
+- Next Level 3D Free Furniture Pack (Download Source: Unreal Engine Marketplace)
+
 ---
 
 # Game Design
